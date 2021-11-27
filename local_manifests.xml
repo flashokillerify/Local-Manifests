@@ -20,6 +20,6 @@
   
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="cd" revision="eleven"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-vommon" remote="cd" revision="eleven"/>
+  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="cd" revision="eleven"/>
 
   </manifest>
