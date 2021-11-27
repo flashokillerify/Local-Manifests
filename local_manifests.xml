@@ -5,7 +5,7 @@
            fetch="https://github.com/hsx02" />
            
    <remote  name="ms"
-           fetch="https://github.com/ConquerOS-Devices" />
+           fetch="https://github.com/mi-sdm439" />
 
    <remote  name="fl"
            fetch="https://github.com/xiaomi-sdm439-devs" />
