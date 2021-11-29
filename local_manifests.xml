@@ -7,9 +7,6 @@
    <remote  name="ms"
            fetch="https://github.com/mi-sdm439" />
 
-   <remote  name="ch"
-           fetch="https://github.com/RevengeOS-Devices" />
-
  <!-- Replacements -->
   <remove-project name="platform_packages_apps_FMRadio"/>
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hs" revision="lineage-18.1"/>
@@ -18,7 +15,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hs" revision="lineage-18.1"/>
     
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="ch" revision="r11.0"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hs" revision="r11.0"  clone-depth="1"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/pine" name="device_xiaomi_pine" remote="hs" revision="Aex-11"/>
