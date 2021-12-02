@@ -19,7 +19,7 @@
 
  <!-- Device Trees -->
   <project path="device/xiaomi/pine" name="xd_device_pine" remote="hs" revision="11"/>
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="cd" revision="eleven"/>
+  <project path="device/xiaomi/sdm439-common" name="xd_device_xiaomi_sdm439-common" remote="hs" revision="eleven"/>
   
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="cd" revision="eleven"/>
