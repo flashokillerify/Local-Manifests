@@ -3,6 +3,10 @@
 
    <remote  name="hs"
            fetch="https://github.com/hsx02" />
+
+<!-- Replacements -->
+  <remove-project name="xd_frameworks_native"/>
+  <project path="frameworks/native" name="xd_frameworks_native" remote="hs" revision="11.0"/>
            
 
 <!-- Kernels -->
