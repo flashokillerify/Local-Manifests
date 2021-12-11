@@ -6,9 +6,8 @@
 
 <!-- Replacements -->
   <remove-project name="xd_frameworks_native"/>
-  <project path="frameworks/native" name="xd_frameworks_native" remote="hs" revision="11.0"/>
+  <project path="frameworks/native" name="xd_frameworks_native" remote="hs" revision="eleven"/>
            
-
 <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="xd_kernel_xiaomi_sdm439" remote="hs" revision="11.0"  clone-depth="1"/>
 
