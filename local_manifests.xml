@@ -3,6 +3,8 @@
 
    <remote  name="hs"
            fetch="https://github.com/hsx02" />
+   <remote  name="ms"
+           fetch="https://github.com/mi-sdm439" />
 
 <!-- Replacements -->
   <remove-project name="xd_frameworks_native"/>
@@ -15,8 +17,8 @@
   <project path="device/xiaomi/pine" name="xd_11.0-CAF" remote="hs" revision="dt"/>
   <project path="device/xiaomi/sdm439-common" name="xd_11.0-CAF" remote="hs" revision="dct"/>
   
- <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/pine"  name="xd_11.0-CAF" remote="hs" revision="vt"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="xd_11.0-CAF" remote="hs" revision="vct"/>
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/pine"  name="proprietary_vendor_xiaomi_pine" remote="ms" revision="lineage-18.1"/>
+  <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common" remote="ms" revision="lineage-18.1"/>
 
   </manifest>
