@@ -15,7 +15,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="yi" revision="lineage-18.1"/>
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yi" revision="lineage-18.1"/>
   <remove-project name="hardware_qcom_wlan"/>
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yi" revision="S"/>
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yi" revision="T"/>
   <remove-project name="frameworks_base"/>
   <project path="frameworks/base" name="spark_frameworks_base" remote="yi" revision="spark"/>
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
