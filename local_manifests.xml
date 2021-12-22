@@ -18,6 +18,14 @@
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx02" revision="Aex-S"/>
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
 
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="pxl" revision="twelve"/>
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pxl" revision="twelve"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="pxl" revision="twelve"/>
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pxl" revision="twelve"/>
+  <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="device_qcom_sepolicy" remote="pxl" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />  
+  <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pxl" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />
+
+
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="12.0"  clone-depth="1"/>
 
