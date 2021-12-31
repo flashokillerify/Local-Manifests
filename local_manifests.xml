@@ -24,7 +24,9 @@
   <remove-project name="hardware_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx" revision="S"/>
   <remove-project name="frameworks_base"/>
-  <project path="frameworks/base" name="spark_frameworks_base" remote="yi" revision="spark"/>
+  <project path="frameworks/base" name="spark_frameworks_base" remote="hsx" revision="spark"/>
+  <remove-project name="packages_apps_Fireworks"/>
+  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="hsx" revision="spark"/>
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx" revision="Aex-S"/>
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
