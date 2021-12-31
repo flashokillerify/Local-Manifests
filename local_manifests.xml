@@ -13,8 +13,8 @@
    <remote  name="yi"
            fetch="https://github.com/yesidev" />   
 
-   <remote  name="kt "
-           fetch="https://github.com/xiaomi-sdm439-devs" />   
+   <remote  name="kt"
+           fetch="http://github.com/xiaomi-sdm439-devs" />   
 
 
  <!-- Replacement -->
