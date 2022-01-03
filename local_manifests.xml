@@ -24,6 +24,7 @@
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx" revision="Aex-S"/>
   <remove-project name="frameworks_base"/>
   <project path="frameworks/base" name="evox_frameworks_base" remote="hsx" revision="snow"/>
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
 
   <project path="device/xiaomi/pine" name="wip" remote="hsx" revision="dt"/>
   <project path="device/xiaomi/sdm439-common" name="wip" remote="hsx" revision="dct"/>
