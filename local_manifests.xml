@@ -22,6 +22,8 @@
   <remove-project name="device_qcom_sepolicy-legacy-um"/>
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx" revision="Aex-S"/>
+  <remove-project name="frameworks_base"/>
+  <project path="frameworks/base" name="evox_frameworks_base" remote="hsx" revision="snow"/>
 
   <project path="device/xiaomi/pine" name="wip" remote="hsx" revision="dt"/>
   <project path="device/xiaomi/sdm439-common" name="wip" remote="hsx" revision="dct"/>
