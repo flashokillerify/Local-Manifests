@@ -19,9 +19,6 @@
    <remote name="RasyidAlKautsar"
            fetch="https://github.com/RasyidAlKautsar" />
 
-   <remote  name="kt"
-           fetch="https://github.com/xiaomi-sdm439-devs" />   
-
  <!-- Replacement -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
