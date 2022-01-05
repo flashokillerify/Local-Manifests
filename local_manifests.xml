@@ -31,8 +31,6 @@
   <remove-project name="platform_frameworks_base"/>
   <project path="frameworks/base" name="aex_frameworks_base" remote="hsx" revision="12.x"/>
 
-        <remove-project name="platform_system_bt" />
-        <project path="system/bt" name="android_system_bt" remote="RasyidAlKautsar" revision="lineage-19.0" />
         <remove-project name="platform_vendor_qcom_opensource_system_bt" />
         <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aospextended-tmp" revision="12.x" />
         <remove-project name="platform_vendor_qcom_opensource_bluetooth_ext" />
