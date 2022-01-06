@@ -32,6 +32,8 @@
   <project path="frameworks/base" name="aex_frameworks_base" remote="hsx" revision="12.x"/>
   <remove-project name="platform_device_aosp_sepolicy"/>
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="hsx" revision="12.x"/>
+  <remove-project name="platform_vendor_aosp"/>
+  <project path="vendor/aosp" name="aex_platform_vendor_aosp" remote="hsx" revision="12.x"/>
 
         <remove-project name="platform_vendor_qcom_opensource_system_bt" />
         <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aospextended-tmp" revision="12.x" />
